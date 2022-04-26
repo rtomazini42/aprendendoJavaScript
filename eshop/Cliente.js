@@ -46,7 +46,7 @@ export class Cliente{
             let preco = this.carrinho[i].precoProduto;
             total = total + preco;
         }
-        console.log(" Total R$: " + total);
+        console.log(`Total : R$ ${total.toFixed(2)}`);
     }
 
 }

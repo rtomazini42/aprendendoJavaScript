@@ -9,6 +9,7 @@ const produto3 = new Produto("Alho poró", 1.20);
 const produto4 = new Produto("Batata", 0.78);
 const produto5 = new Produto("Pasta de dentes", 2,75);
 const produto6 = new Produto("Pão", 0.88);
+const produto7 = new Produto("Tomate", 7.99);
 //console.log(produto1.nomeProduto)
 
 
@@ -23,6 +24,9 @@ cliente1.adicionarProdutoNoCarrinho(produto6);
 cliente1.adicionarProdutoNoCarrinho(produto6);
 cliente1.adicionarProdutoNoCarrinho(produto6);
 cliente1.adicionarProdutoNoCarrinho(produto6);
+cliente1.adicionarProdutoNoCarrinho(produto7);
+cliente1.adicionarProdutoNoCarrinho(produto7);
+cliente1.adicionarProdutoNoCarrinho(produto7);
 
 
 cliente1.gerarNF();
