@@ -1,0 +1,37 @@
+<script>
+
+    const escolha = prompt("Olá, você deseja 1- Front End ou 2 -Back End?");
+    if(escolha == 1){
+        document.write("<p>Você escolheu front end</p>");
+        const escolha2 = prompt("Quer aprender 1-React ou 2-Vue");
+        if(escolha2 == 1){
+            document.write("<p>Você escolheu aprender React</p>");
+        } else{
+            document.write("<p>Você escolheu aprender Vue</p>");
+        }
+    } else{
+        document.write("Você escolheu back end");
+        const escolha3 = prompt("Prefere aprender 1-C# ou 2-Java?")
+        if(escolha3 == 1){
+            document.write("<p>Você escolheu aprender C#</p>");
+        } else{
+            document.write("<p>Você escolheu aprender Java</p>");
+        }
+    }
+    const escolha4 = prompt("Você quer 1-seguir se especializando na área escolhida ou 2-seguir se desenvolvendo para se tornar Fullstack");
+    if(escolha4 == 1){
+            document.write("<p>Você escolheu seguir se especializando na área escolhida</p>");
+        } else{
+            document.write("<p>Você escolheu seguir se desenvolvendo para se tornar Fullstack</p>");
+        }
+    
+    const especializacoes = prompt("Quantas especializacoes você pretende fazer?");
+    document.write(`<p>Tecnlogias que você quer aprender:</p>`)
+    for(i=0;i<especializacoes;i++){
+        let tecnologia = prompt("Qual tecnologia você quer aprender?");
+        document.write(`<p>${tecnologia}<p>`);
+    }
+
+    
+</script>
+    
