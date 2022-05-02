@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Dia 3</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+</html>
+
+<script>
+    let numeroSecreto = Math.floor(Math.random() * (11 - 0)) + 0;
+    let tentativas = 3;
+    let acertou = false;
+    while(tentativas != 0){
+        let chute = prompt("Chute um número");
+        if(chute == numeroSecreto){
+            alert("Você acertou!");
+            acertou = true;
+            break;
+        }
+        tentativas = tentativas - 1;
+        alert(`Você errou, restam ${tentativas}`);
+    }
+    if(acertou == false){
+        document.write("<h1>Você errou todas tentativas</h1>");
+        document.write("<h1>O número era "+ numeroSecreto + "</h1>");
+    }
+    if(acertou == true){
+        document.write("<h1>Você acertou!</h1>");
+    }
+
+</script>
