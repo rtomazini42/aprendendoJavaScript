@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Dia 3</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <h1>Lista de Compras</h1>
+</html>
+
+<script>
+    var frutas = [];
+    var laticinios = [];
+    var congelados = [];
+    var doces = [];
+    var verduras = [];
+    var pets = [];
+    var outros = [];
+
+    function listar(lista, nome){
+        if (lista.length > 0){
+            document.write(`<h2>${nome}</h2>`);
+        }
+        for(i=0; i < lista.length; i++){
+            document.write(`<p>${lista[i]}</p>`);
+        }
+    }
+    
+    while(true){
+        let escolha = prompt("Deseja adicionar uma comida na lista de compras? 1- sim 2- não");
+        if(escolha == 2){
+            break;
+        }
+        let comida = prompt("Qual o nome da comida que deseja adicionar?");
+        let categoria = prompt("Qual categoria? 1-frutas, 2-laticínios, 3-congelados, 4-doces, 5-verduras, 6-Pets , 7-Outros");
+        if(categoria == 1){
+            frutas.push(comida);
+        }
+        if(categoria == 2){
+            laticinios.push(comida);
+        }
+        if(categoria == 3){
+            congelados.push(comida);
+        }
+        if(categoria == 4){
+            doces.push(comida);
+        }
+        if(categoria == 5){
+            verduras.push(comida);
+        }
+        if(categoria == 6){
+            pets.push(comida);
+        }
+        if(categoria == 7){
+            outros.push(comida);
+        }
+    }
+    listar(frutas, "Frutas");
+    listar(laticinios, "Laticínios");
+    listar(congelados, "Congelados");
+    listar(doces, "Doces");
+    listar(verduras, "Verduras");
+    listar(pets, "Pets");
+    listar(outros, "sem categoria");
+
+
+
+</script>
