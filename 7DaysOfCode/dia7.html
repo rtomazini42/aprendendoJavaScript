@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Dia 7</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+
+
+<script>
+    while(true){
+        let escolha=prompt("Escolha a operação 1-Soma 2-Subtração 3-Multiplicação 4-Divisão 5-Sair");
+        if(escolha == 5){
+            document.write("<h1>Obrigado por usar!<h1>")
+                break;
+        }
+        if(escolha == 1){
+            let algarismo1=prompt("insira o primeiro algarismo");
+            let algarismo2=prompt("insira o segundo algarismo");
+            let res = parseInt(algarismo1) + parseInt(algarismo2);
+            alert(`A soma é ${res}`);
+        }
+        if(escolha == 2){
+            let algarismo1=prompt("insira o primeiro algarismo");
+            let algarismo2=prompt("insira o segundo algarismo");
+            let res = parseInt(algarismo1) - parseInt(algarismo2);
+            alert(`A subtração é ${res}`);
+        }
+        if(escolha == 3){
+            let algarismo1=prompt("insira o primeiro algarismo");
+            let algarismo2=prompt("insira o segundo algarismo");
+            let res = parseInt(algarismo1) * parseInt(algarismo2);
+            alert(`A multiplicacao é ${res}`);
+        }
+        if(escolha == 4){
+            let algarismo1=prompt("insira o primeiro algarismo");
+            let algarismo2=prompt("insira o segundo algarismo");
+            let res = parseInt(algarismo1) / parseInt(algarismo2);
+            alert(`A divisão é ${res}`);
+        }
+    }
+</script>
+
+</html>
