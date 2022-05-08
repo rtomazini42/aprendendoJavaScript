@@ -3,6 +3,7 @@ import {Filme} from './Filme.js';
 
 const filme1 = new Filme("Que horas ela volta", 2014, "Guilherme filmes");
 const filme2 = new Filme("Piratas do vale do Silicio", 1996, "Mac");
+const filme3 = new Filme("Até que a Sbornia", 2014, "Otto Guerra");
 
 
 filme1.locar();
