@@ -12,7 +12,7 @@ const produto6 = new Produto("Pão", 0.88);
 const produto7 = new Produto("Tomate", 7.99);
 //console.log(produto1.nomeProduto)
 
-
+cliente1.adicionarProdutoNoCarrinho(produto1);
 cliente1.adicionarProdutoNoCarrinho(produto1);
 cliente1.adicionarProdutoNoCarrinho(produto2);
 cliente1.adicionarProdutoNoCarrinho(produto3);
