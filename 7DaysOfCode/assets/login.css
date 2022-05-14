@@ -1,0 +1,45 @@
+body{
+    background-image: url("./fundo.jpg");
+    background-size: auto;
+    text-align: center;
+}
+
+.container-xl{
+    padding: 5%;
+    background-color: #2C2F33;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color:#F6F6F6;
+    border-radius: 100px;
+    
+}
+
+.container-m{
+    display: inline-block;
+}
+
+.container-m img{
+    width:50%;
+    filter: invert(100);
+}
+
+input {
+    border-radius: 30px;
+    padding: 12px;
+    width: auto;
+}
+
+button{
+    display: inline-block;
+    margin:1%;
+    border-radius: 30px;
+    padding: 3%;
+    border-style: none;
+    background-color: blue;
+    color:aqua
+}
+
+button:hover{
+    background-color: violet;
+}
