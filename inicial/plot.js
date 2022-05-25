@@ -17,7 +17,11 @@ function plotarVetor(x,y){
     }else{
         console.log(`${i}|${linhaVazia}`);
     } 
+    
+
         }
+
+        console.log("---------------------------");
         
 }
 
