@@ -12,3 +12,6 @@ tabuada(2);
 tabuada(3);
 tabuada(5);
 tabuada(11);
+tabuada(21);
+tabuada(13);
+tabuada(8);
