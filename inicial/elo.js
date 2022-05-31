@@ -23,10 +23,16 @@ class jogador{
 
 var jogador1 = new jogador(1,1,100);
 var jogador2 = new jogador(2,3,312);
+var jogador3 = new jogador(2,3,111);
 
 jogador1.ganhou(jogador2);
 jogador1.ganhou(jogador2);
 jogador1.ganhou(jogador2);
 jogador1.ganhou(jogador2);
+jogador1.ganhou(jogador3);
+jogador3.ganhou(jogador2);
+
+
 console.log(jogador1.mostraRank())
 console.log(jogador2.mostraRank())
+console.log(jogador3.mostraRank())
