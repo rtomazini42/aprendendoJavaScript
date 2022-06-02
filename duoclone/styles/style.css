@@ -44,3 +44,31 @@ nav #informacoes{
     display: inline-flex;
     width: 48px;
 }
+
+.conteudo a img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 1em;
+    border-color: #afafaf;
+    
+}
+
+.conteudo a img:hover{
+    
+    border-color: blue;
+}
+
+.conteudo a{
+    text-decoration: none;
+    text-align: center;
+    color: #afafaf;
+}
