@@ -16,13 +16,10 @@ function somarTransformacao(tu,tv){
 
 //t(u)
 tu = transformacao("x","y","z");
-
 //t(v)
 tv = transformacao("a","b","c");
-
 //t(u+v)
 tuv = transformacao("ax","by","zc");
-
 //veriricar se as saidas são iguais:
 console.log(tuv);
 console.log(somarTransformacao(tu,tv))
