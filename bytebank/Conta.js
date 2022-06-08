@@ -19,6 +19,7 @@ export class Conta{
     get saldo(){
         return this.#saldo;
     }
+
     
     constructor(saldoInicial,cliente, agencia){
         this.cliente = cliente;
@@ -27,6 +28,8 @@ export class Conta{
     }
 
     sacar(valor){
+        console.log(`Saldo atual: ${this.#saldo}`);
+        console.log(`Processando saque`);
         if(this.#saldo>=valor){
             this.#saldo -= valor;
             console.log("Sacando");
@@ -34,7 +37,7 @@ export class Conta{
         else{
             console.log("Saldo insuficiente");
         }
-        console.log(this.#saldo);
+        console.log(`Saldo atual: ${this.#saldo}`);
         return this.#saldo;
     }
 

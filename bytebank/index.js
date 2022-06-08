@@ -15,3 +15,7 @@ console.log(contaPoupanca1.cliente);
 console.log(contaPoupanca1.saldo);
 console.log(contaPoupanca2.cliente);
 console.log(contaPoupanca2.saldo);
+
+
+contaCorrente1.depositar(1000);
+contaCorrente1.sacar(90);

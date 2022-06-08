@@ -1,4 +1,4 @@
-import { Cliente } from "./Cliente.js";
+//import { Cliente } from "./Cliente.js";
 import { Conta } from "./Conta.js";
 
 export class ContaCorrente extends Conta{
@@ -9,4 +9,10 @@ export class ContaCorrente extends Conta{
         console.log("Conta Criada" + ContaCorrente.numeroDeContas);
     }
 
+
+    sacar(valor){
+        console.log("Processando saque");
+        super.sacar(valor +(valor*0.05));
+        console.log(`${valor} sacado, mais acrescimo de 5% ${valor*0.05}`);
+    }
 }
