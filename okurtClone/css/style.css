@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+body {
+    background-color: #d8e3f6;
+}
+nav {
+    background-color: #759cd1;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flexbox;
+    margin: 0px;
+    font-size: large;
+    -webkit-box-shadow: inset 5px 5px 20px 21px rgba(0,0,0,0.27); 
+box-shadow: inset 5px 5px 20px 21px rgba(0,0,0,0.27);
+    
+}
+
+nav a{
+    padding: 1%;
+    display: inline;
+}
+
+nav #logo{
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+    background-color: #fdfdf9;
+    display: inline-block;
+    color: #b44c9b;
+}
+
+nav p{
+    display: inline;
+    margin-left: 20%;
+    color: #264a79;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1113px) {
+    nav p{
+        display: none;
+    }
+}
