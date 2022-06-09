@@ -19,3 +19,5 @@ console.log(contaPoupanca2.saldo);
 
 contaCorrente1.depositar(1000);
 contaCorrente1.sacar(90);
+
+contaPoupanca1.sacar(33);

@@ -8,4 +8,12 @@ export class ContaPoupanca extends Conta{
     }
     
 
+    sacar(valor){
+        console.log("Processando saque");
+        super.sacar(valor +(valor*0.05));
+        console.log(`${valor} sacado, mais acrescimo de 2% ${valor*0.02}`);
+    }
+
+
+
 }
